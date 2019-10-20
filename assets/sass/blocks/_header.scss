@@ -1,21 +1,24 @@
-.pre-header {
-    padding: 5px 0;
-    display: flex;
-    justify-content: space-between;
-}
-
 .page-header {
     padding: 10px 0;
     background-color: $headerBgColor;
     color: $headerFontColor;
-}
-
-.logo {
-    &,
-    &-link,
-    &-img {
-        display: inline-block;
-        vertical-align: middle;
+    
+    //xs 544
+    @media #{$mobile} {
+        .logo-desk span img {
+            margin: 15px auto 0 auto;
+            display: block !important;
+        }
+    }
+    
+    .head-ph {
+        text-align: right;
+        
+        //xs 544
+        @media #{$mobile} {
+            text-align: center;
+            padding-top: 15px;
+        }
     }
 }
 

@@ -1,3 +1,11 @@
+.fal, .far {
+    color: $themeColorTwo
+}
+
+.fa-phone {
+    transform: rotateY(180deg);
+}
+
 //.fa {
 //    color: $iconColor;
 //    @extend %smooth_animation;

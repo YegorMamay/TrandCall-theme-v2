@@ -108,6 +108,11 @@ body {
     @media #{$mobile} {
         padding-top: 60px;
     }
+    
+    //sm 545 - 768
+    @media #{$tablet} {
+        padding-top: 70px;
+    }
 }
 
 b,

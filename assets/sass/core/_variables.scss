@@ -24,18 +24,18 @@ $bodyBgColor: #fff; //white
 $bodyFontColor: #000; // black
 
 // HEADER: цвет фона шапки сайта
-$headerBgColor: $themeColorOne;
-$headerFontColor: #fff;
+$headerBgColor: $themeColorThree;
+$headerFontColor: #000;
 
 // Text Highlight: цвет фона и текста при добавлении к нему .highlighted
 $textHighlightBgColor: $themeColorTwo;
 $textHighlightColor: #fff;
 
 // MENU
-$menuBgColor: $themeColorOne;
+$menuBgColor: $themeColorThree;
 $menuBgColorActive: $themeColorTwo;
-$menuFontColor: #fff;
-$menuFontColorActive: #fff;
+$menuFontColor: $themeColorOne;
+$menuFontColorActive: $themeColorOne;
 
 $navArrowColor: #fff;
 $navHeaderMobileBGColor: $themeColorOne;

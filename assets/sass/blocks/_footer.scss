@@ -26,3 +26,48 @@
         }
     }
 }
+
+//xs 544
+@media #{$mobile} {
+    .copyright {
+        text-align: center;
+        
+        div {
+            margin-bottom: 10px;
+        }
+        
+        div:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+//sm 545 - 768
+@media #{$tablet} {
+    .copyright {
+        text-align: center;
+        
+        div {
+            margin-bottom: 10px;
+        }
+        
+        div:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+//md 769 - 1024
+@media #{$laptop} {
+    .copyright {
+        text-align: center;
+        
+        div {
+            margin-bottom: 10px;
+        }
+        
+        div:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
