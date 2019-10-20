@@ -1,7 +1,35 @@
+@font-face {
+font-family: "Fontfabric";
+src: url("assets/fonts/Fontfabric.otf");
+}
+
+@font-face {
+font-family: "UniSansHeavy";
+src: url("assets/fonts/UniSansHeavy.otf");
+}
+
+@font-face {
+font-family: "UniSansSemiBold";
+src: url("assets/fonts/UniSansSemiBold.otf");
+}
+
+@font-face {
+font-family: "UniSansThinCaps";
+src: url("assets/fonts/UniSansThinCaps.ttf");
+}
+
+@font-face {
+font-family: "UniSansThinCaps";
+src: url("assets/fonts/UniSansThinCaps.ttf");
+}
+
+
 $font-family-sans-serif: 'Arial', 'Helvetica', sans-serif;
 $font-family-serif: 'Georgia', 'Times New Roman', 'Times', serif;
 $font-family-monospace: 'Menlo', 'Monaco', 'Consolas', 'Courier New', monospace;
 
-$fontFamilyOne: $font-family-sans-serif; // titles
-$fontFamilyTwo: $font-family-sans-serif; // body
-$fontFamilyThree: $font-family-sans-serif;
+$fontFamilyTwo: "Fontfabric";
+$fontFamilyOne: "UniSansHeavy"; // titles
+$fontFamilyThree: "UniSansSemiBold";
+$fontFamilyFour: "UniSansThinCaps";
+$fontFamilyFour: "Fontfabric";
