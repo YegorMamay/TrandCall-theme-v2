@@ -1,26 +1,21 @@
 @font-face {
-font-family: "Fontfabric";
-src: url("assets/fonts/Fontfabric.otf");
+    font-family: 'UniSansBook';
+    src: url("assets/fonts/UniSansBook.ttf")
 }
 
 @font-face {
-font-family: "UniSansHeavy";
-src: url("assets/fonts/UniSansHeavy.otf");
+    font-family: 'UniSansHeavy';
+    src: url("assets/fonts/UniSansHeavy.ttf");
 }
 
 @font-face {
-font-family: "UniSansSemiBold";
-src: url("assets/fonts/UniSansSemiBold.otf");
+    font-family: 'UniSansSemiBold';
+    src: url("assets/fonts/UniSansSemiBold.ttf")
 }
 
 @font-face {
-font-family: "UniSansThinCaps";
-src: url("assets/fonts/UniSansThinCaps.ttf");
-}
-
-@font-face {
-font-family: "UniSansThinCaps";
-src: url("assets/fonts/UniSansThinCaps.ttf");
+    font-family: 'Marutya';
+    src: url("assets/fonts/Marutya.ttf")
 }
 
 
@@ -32,4 +27,4 @@ $fontFamilyTwo: "Fontfabric";
 $fontFamilyOne: "UniSansHeavy"; // titles
 $fontFamilyThree: "UniSansSemiBold";
 $fontFamilyFour: "UniSansThinCaps";
-$fontFamilyFour: "Fontfabric";
+$fontFamilyFive: "UniSansBook";
