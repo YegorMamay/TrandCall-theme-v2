@@ -10,7 +10,7 @@
     <?php endif; ?>
 
     <div class="container">
-        <div class="copyright row align-items-center">
+        <div class="copyright row align-items-center text-center">
             <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3">
                 <div class="logo">
 	                    <?php get_default_logo_link([

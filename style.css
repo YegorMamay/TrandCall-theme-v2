@@ -11806,10 +11806,22 @@ hr.style-two {
     display: block !important;
   }
 }
+@media (min-width: 545px) and (max-width: 768px) {
+  .page-header .logo-desk span img {
+    margin: 15px auto 0 auto;
+    display: block !important;
+  }
+}
 .page-header .head-ph {
   text-align: right;
 }
 @media (max-width: 544px) {
+  .page-header .head-ph {
+    text-align: center;
+    padding-top: 15px;
+  }
+}
+@media (min-width: 545px) and (max-width: 768px) {
   .page-header .head-ph {
     text-align: center;
     padding-top: 15px;
@@ -12498,9 +12510,6 @@ hr.style-two {
 }
 
 @media (max-width: 544px) {
-  .copyright {
-    text-align: center;
-  }
   .copyright div {
     margin-bottom: 10px;
   }
@@ -12509,9 +12518,6 @@ hr.style-two {
   }
 }
 @media (min-width: 545px) and (max-width: 768px) {
-  .copyright {
-    text-align: center;
-  }
   .copyright div {
     margin-bottom: 10px;
   }
@@ -12520,9 +12526,6 @@ hr.style-two {
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  .copyright {
-    text-align: center;
-  }
   .copyright div {
     margin-bottom: 10px;
   }

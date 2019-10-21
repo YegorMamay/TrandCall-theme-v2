@@ -11,11 +11,25 @@
         }
     }
     
+    //sm 545 - 768
+    @media #{$tablet} {
+        .logo-desk span img {
+            margin: 15px auto 0 auto;
+            display: block !important;
+        }
+    }
+    
     .head-ph {
         text-align: right;
         
         //xs 544
         @media #{$mobile} {
+            text-align: center;
+            padding-top: 15px;
+        }
+        
+        //sm 545 - 768
+        @media #{$tablet} {
             text-align: center;
             padding-top: 15px;
         }
